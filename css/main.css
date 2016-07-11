@@ -1,0 +1,63 @@
+h2 {
+	margin-bottom: 0;
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+
+button {
+	margin-top: 20px;
+}
+.login {
+	margin-top: 10px;
+	padding: 20px 30px;
+	background-color: rgba(33, 150, 243, 0.22);
+}
+.logInOutput {
+	text-align: left;
+    margin-top: 20px;
+    width: 36%;
+    margin-left: 73px;
+    background-color: rgba(113, 167, 210, 0.58);
+    padding: 9px;
+    border-radius: 11px;
+    border-bottom: 3px solid #425565;
+    border-right: 1px solid #425565;
+}
+.logInOutput h3 {
+	display: inline;
+    margin-right: 2px;
+    color: #1b77bf;
+}
+.logInOutput p {
+	text-align: left;
+    display: inline;
+
+}
+.signup {
+	margin-top: 10px;
+	padding: 20px 30px;
+    background-color: rgba(92,184,92,0.22);
+}
+.signUpOutput {
+	text-align: left;
+    margin-top: 20px;
+    width: 36%;
+    margin-left: 73px;
+    background-color: rgba(93, 141, 93, 0.43);
+    padding: 9px;
+    border-radius: 11px;
+    border-bottom: 3px solid #176417;
+    border-right: 1px solid #176417;
+}
+.signUpOutput h3 {
+	display: inline;
+    margin-right: 2px;
+    color: #137f13;
+}
+.signUpOutput p {
+	text-align: left;
+    display: inline;
+
+}
