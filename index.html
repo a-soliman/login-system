@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>User registration</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<section class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="login">
+							<h2>LOG IN</h2>
+							<p>existed user</p>
+							<form>
+								<label for="username">username:</label>
+								<input class="form-control" type="text" name="" id="username" >
+								<label for="password">password:</label>
+								<input class="form-control" type="text" name="" id="password" >
+								<button class="btn btn-primary btn-md" type="button" onclick="logIn()">Log in</button>
+							</form>
+							<div id="logInOutput" class="">
+									
+							</div> <!-- logInOutput -->
+						</div> <!-- login -->
+					</div> <!-- col -->
+				</div> <!-- row -->
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="signup" id="signup">
+							<h2> SIGN UP</h2>
+							<p>a new user</p>
+							<form>
+								<label for="username">username:</label>
+								<input class="form-control" type="text" name="" id="newUsername" >
+								<label for="password">password:</label>
+								<input class="form-control" type="text" name="" id="newPassword" >
+								<button class="btn btn-success btn-md" type="button" onclick="signUp()">sign up</button>
+							</form>
+							<div id="signUpOutput" class="signUpOutput">
+									
+							</div> <!-- logInOutput -->
+						</div> <!-- signup -->
+					</div> <!-- col -->
+				</div> <!-- row -->
+			</div><!-- container -->
+		</section> <!-- container-fluid -->
+
+		<!-- ******Jquery GOOGLE CDN***** -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
